@@ -26,3 +26,17 @@ The spec file is the file you will do your tests on.
 
 In the spec file begin thinking of the simplest test code that will move your code
 forward.
+
+All of these tests are run using Node, so you have to use it's style.
+  
+   First of all, because all these tests run using Node, this means that we import 
+   modules using the node-style require(). The next thing to note is that we are using 
+   a ‘Behaviour Driven Development’ (BDD) style to write the tests. This is a variation 
+   on TDD where tests are written in the form: Describe [thing]. It should [do something]. 
+   The [thing] can be a module, or a class, or a method, or a function. Mocha includes 
+   built-in functions like describe() and it() to make writing in this style possible.
+   
+There is currently too much Node syntax for me to truly understand what is going on. I'll
+to do more learning and come back this.
+
+http://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-intro/
