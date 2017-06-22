@@ -1,0 +1,28 @@
+TDD = Test Drive Development
+
+TDD is an approach to writing software where your write tests before you write
+application code.
+
+Basic Step - The TDD Mantra "Red, Green, Refactor":
+  Red - write a test and make sure it fails.
+  Green - write the simplest, easiest possible code to make it pass
+  Refactor - optimise and/or simplify application code, make sure it still passes
+  all tests.
+  
+Main benefit of TDD is that it will instill in you to write tests and write simpler
+code.
+
+There is a step before before Red. The thinking step. Conceptualize how the code will
+work. This is Development not Design.
+
+In these notes I'll be using Mocha and Chai
+
+  $ cd /the/file/you/are/working/on
+  $ npm install mocha -g
+  $ npm install chai
+  
+You'll create two files. For example: photo-fetcher.js, and photo-fetcher-spec.js. 
+The spec file is the file you will do your tests on.
+
+In the spec file begin thinking of the simplest test code that will move your code
+forward.
